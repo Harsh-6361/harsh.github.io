@@ -1,25 +1,66 @@
-# CakePHP 3
+# CakePHP 3 configuration
 
+# The /vendor directory contains CakePHP's core files and any third-party
+# libraries or plugins that have been installed via Composer.
 /vendor/*
+
+# The /config/app.php file is the main configuration file for a CakePHP 3
+# application. It contains settings for various aspects of the application,
+# such as the default timezone, error handling, and security.
 /config/app.php
 
+# The /tmp/cache/models directory contains cached model data for the application.
+# The '!*' pattern is used to exclude the 'empty' directory, which is used
+# as a placeholder when the cache is empty.
 /tmp/cache/models/*
 !/tmp/cache/models/empty
+
+# The /tmp/cache/persistent directory contains cached data that persists
+# across multiple requests, such as user sessions. The '!*' pattern is
+# used to exclude the 'empty' directory, which is used as a placeholder
+# when the cache is empty.
 /tmp/cache/persistent/*
 !/tmp/cache/persistent/empty
+
+# The /tmp/cache/views directory contains cached view templates for the
+# application. The '!*' pattern is used to exclude the 'empty' directory,
+# which is used as a placeholder when the cache is empty.
 /tmp/cache/views/*
 !/tmp/cache/views/empty
+
+# The /tmp/sessions directory contains user session data for the application.
+# The '!*' pattern is used to exclude the 'empty' directory, which is used
+# as a placeholder when the cache is empty.
 /tmp/sessions/*
 !/tmp/sessions/empty
+
+# The /tmp/tests directory contains temporary files used for testing the
+# application. The '!*' pattern is used to exclude the 'empty' directory,
+# which is used as a placeholder when the cache is empty.
 /tmp/tests/*
 !/tmp/tests/empty
 
+# The /logs directory contains log files for the application.
+# The '!*' pattern is used to exclude the 'empty' directory, which is used
+# as a placeholder when the cache is empty.
 /logs/*
 !/logs/empty
 
-# CakePHP 2
+# CakePHP 2 configuration
 
+# The /app/tmp directory contains temporary files for a CakePHP 2 application,
+# including cached model data, view templates, and session data.
 /app/tmp/*
+
+# The /app/Config/core.php file is the main configuration file for a CakePHP 2
+# application. It contains settings for various aspects of the application,
+# such as the default timezone, error handling, and security.
 /app/Config/core.php
+
+# The /app/Config/database.php file contains configuration settings for the
+# application's database connections.
 /app/Config/database.php
+
+# The /vendors directory contains third-party libraries or plugins that have
+# been installed for the CakePHP 2 application.
 /vendors/*
