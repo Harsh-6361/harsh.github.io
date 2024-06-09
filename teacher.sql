@@ -1,0 +1,1 @@
+CREATE TABLE teacher (  Username varchar(50) NOT NULL UNIQUE,  password VARCHAR(50) NOT NULL,  FirstName varchar(50) NOT NULL,  LastName varchar(50) NOT NULL,  Email varchar(50) NOT NULL UNIQUE,  Phone int(10) NOT NULL UNIQUE,  Department varchar(50) NOT NULL);
