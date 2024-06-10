@@ -21,6 +21,7 @@
 > - [📍 Overview](#-overview)
 > - [📦 Features](#-features)
 > - [📂 Repository Structure](#-repository-structure)
+> - [screenshorts](#-screenshorts)
 > - [🚀 Getting Started](#-getting-started)
 >   - [⚙️ Installation](#️-installation)
 >   - [🤖 Running harsh.github.io](#-running-harsh.github.io)
@@ -103,7 +104,7 @@ The Student Records Management System has the following features:
 ```
 
 ---
-
+##screenshorts
 ---
 
 ## 🚀 Getting Started
