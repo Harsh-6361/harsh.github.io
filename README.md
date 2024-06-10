@@ -104,7 +104,18 @@ The Student Records Management System has the following features:
 ```
 
 ---
-##screenshorts
+---
+## screenshorts
+![sign_up](https://github.com/Harsh-6361/harsh.github.io/assets/121291397/84773e06-f34b-44d4-a566-d41294608909)
+![login](https://github.com/Harsh-6361/harsh.github.io/assets/121291397/601a3a81-0903-4dab-a52a-28df3aaf2470)
+![insert_records](https://github.com/Harsh-6361/harsh.github.io/assets/121291397/23a9b437-7c74-4194-bcd0-f94011eb2f4f)
+![display_records](https://github.com/Harsh-6361/harsh.github.io/assets/121291397/34695790-76d7-44f6-a6dc-88f9afc500c2)
+![profile](https://github.com/Harsh-6361/harsh.github.io/assets/121291397/91083abe-a906-4e3a-90ff-9f83d3a2bd23)
+![sgpa_calc](https://github.com/Harsh-6361/harsh.github.io/assets/121291397/199d83b5-fbe9-41b4-8b8c-fff08c6215c7)
+![sign_up](https://github.com/Harsh-6361/harsh.github.io/assets/121291397/84773e06-f34b-44d4-a566-d41294608909)
+
+---
+
 ---
 
 ## 🚀 Getting Started
