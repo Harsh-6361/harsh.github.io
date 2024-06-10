@@ -1,3 +1,38 @@
+<nav style="background-color: #337ab7; padding: 10px; text-align: right;">
+    <button style="background-color: #337ab7; color: #fff; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;"><a href="my_profile.php" style="color: #fff; text-decoration: none;">My Profile</a></button>
+    <button style="background-color: #337ab7; color: #fff; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;"><a href="index.php" style="color: #fff; text-decoration: none;">Insert Record</a></button>
+   <!-- <button style="background-color: #337ab7; color: #fff; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;"><a href="sgpa.html" style="color: #fff; text-decoration: none;">SGPA Calculator</a></button>
+    <button style="background-color: #337ab7; color: #fff; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer;"><a href="logout.php" style="color: #fff; text-decoration: none;">Logout</a></button>
+-->
+  </nav>
+  <br></br>
+  
+  <style>
+   .back-button {
+      position: absolute;
+      top: 60px; /* adjust this value to position the button below the nav buttons */
+      left: 10px;
+      background-color: #337ab7;
+      color: #fff;
+      border: none;
+      border-radius: 50%; /* add this to make the button circular */
+      padding: 10px 20px;
+      cursor: pointer;
+      width: 30px; /* set a fixed width to make the button circular */
+      height: 30px; /* set a fixed height to make the button circular */
+      text-align: center; /* center the text horizontally */
+      line-height: 30px; /* center the text vertically */
+    }
+  </style>
+  
+  <a href="#" class="back-button" onclick="goBack()"><<</a>
+  
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,6 +165,7 @@
             else return 0;
         }
     </script>
+
 <br></br>
 <br></br>
 <br></br>
@@ -138,7 +174,7 @@
 <br></br>
 <br></br>
 <br></br>
-<footer style="background-color: #f0f0f0; padding: 10px; text-align: center; clear: both;">
+<footer style="background-color: #0056b3; padding: 10px; text-align: center; clear: both;">
   <p>Copyright &copy; 2024 Project Members</p>
   <p>Get in touch with us:</p>
   <ul style="list-style: none; padding: 0; margin: 0;">
